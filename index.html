@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TOP Admin Dashboard</title>
+        <meta name="description" content="">
+
+        <link href="style.css" type="text/css" rel="stylesheet">
+    
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Henny+Penny&family=Nabla&family=PT+Serif+Caption:ital@0;1&display=swap');
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar-container">
+                <div class="sidebar dash-icon">
+                    <img src="images/view-dashboard.svg" alt="sidebar icon" class="sidebar icon">
+                    <p>DASHBOARD</p>
+                </div>
+                <div class="sidebar lists-main">
+                    <ul>
+                        <li class="sidebar list">
+                            <a href="" class="sidebar link">
+                                <img src="images/home-outline.svg" alt="Home" class="sidebar icon">
+                                <span class="side-text">Home</span>
+                            </a>
+                        </li>
+                        <li class="sidebar list">
+                            <a href="" class="sidebar link">
+                                <img src="images/card-account-details-outline.svg" alt="Profile" class="sidebar icon">
+                                <span class="side-text">Profile</span>
+                            </a>
+                        </li>
+                        <li class="sidebar list">
+                            <a href="" class="sidebar link">
+                                <img src="images/message-outline.svg" alt="Message" class="sidebar icon">
+                                <span class="side-text">Message</span>
+                            </a>
+                        </li>
+                        </li>
+                        <li class="sidebar list">
+                            <a href="" class="sidebar link">
+                                <img src="images/clock-time-three-outline.svg" alt="History" class="sidebar icon">
+                                <span class="side-text">History</span>
+                            </a>
+                        </li>
+                        <li class="sidebar list">
+                            <a href="" class="sidebar link">
+                                <img src="images/note-multiple-outline.svg" alt="Tasks" class="sidebar icon">
+                                <span class="side-text">Tasks</span>
+                            </a>
+                        </li>
+                        <li class="sidebar list">
+                            <a href="" class="sidebar link">
+                                <img src="images/account-group-outline.svg" alt="Communities" class="sidebar icon">
+                                <span class="side-text">Communities</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidebar lists-other">
+                    <ul class="sidebar lists">
+                        <li class="sidebar list">
+                            <a href="" class="sidebar link">
+                                <img src="images/cog-outline.svg" alt="Settings" class="sidebar icon">
+                                <span class="side-text">Settings</span>
+                            </a>
+                        </li>
+                        <li class="sidebar list">
+                            <a href="" class="sidebar link">
+                                <img src="images/help-box-outline.svg" alt="Support" class="sidebar icon">
+                                <span class="side-text">Support</span>
+                            </a>
+                        </li>
+                        <li class="sidebar list">
+                            <a href="" class="sidebar link">
+                                <img src="images/shield-check-outline.svg" alt="Privacy" class="sidebar icon">
+                                <span class="side-text">Privacy</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-container">
+                <div class="header top">
+                    <div class="header form">
+                        <form action="https://httpbin.org/post" method="post">
+                            <div class="header search-bar">
+                                <img src="images/magnify.svg" alt="search" class="header-icon search">
+                                <input type="text" class="search-text" placeholder="Search...">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="header user-account">
+                        <a href="" class="header user-link">
+                            <img src="images/bell-ring-outline.svg" alt="alert" class="header-icon alert">
+                        </a>
+                        <a href="" class="header user-link">
+                            <img src="images/baby-panda.jpg" alt="User icon" class="header-icon user">
+                            <h4 class="header user-text">Morgan Oakley</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="header bottom">
+                    <div class="header user-greeting">
+                        <a href="" class="header user-link">
+                            <img src="images/baby-panda.jpg" alt="User icon" class="header-icon user-greeting">
+                            <span class="user-greeting text">
+                                <h6>Hi there,</h6>
+                                <h3>Morgan Oakley (@morgan)</h3>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="header buttons">
+                        <div>
+                            <form action="https://httpbin.org/post" method="post" class="header buttons form">
+                                <input type="submit" value="New">
+                                <input type="submit" value="Upload">
+                                <input type="submit" value="Share">
+                            </form>
+                        </div>
+                    </div>
+                </div>             
+            </div>
+            <div class="main-container">
+                <div class="projects-container">
+                    <h3 class="projects title">Your Projects</h3>
+                    <div class="project-cards">
+                        <div class="project card">
+                            <div class="project details">        
+                                <h4>Super Cool Project</h4>
+                                <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                            </div>
+                            <div class="project card-links">
+                                <a href="" class="project card-link">
+                                    <img src="images/star-plus-outline.svg" alt="Bookmark" class="card-icon">
+                                </a>
+                                <a href="" class="project card-link">
+                                    <img src="images/eye-plus-outline.svg" alt="Browse" class="card-icon">
+                                </a>
+                                <a href="" class="project card-link">
+                                    <img src="images/share-variant-outline.svg" alt="Share" class="card-icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project card">
+                            <div class="project details">        
+                                <h4>Less Cool Project</h4>
+                                <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, 
+                                    facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.
+                                </p>
+                            </div>
+                            <div class="project card-links">
+                                <a href="" class="project card-link">
+                                    <img src="images/star-plus-outline.svg" alt="Bookmark" class="card-icon">
+                                </a>
+                                <a href="" class="project card-link">
+                                    <img src="images/eye-plus-outline.svg" alt="Browse" class="card-icon">
+                                </a>
+                                <a href="" class="project card-link">
+                                    <img src="images/share-variant-outline.svg" alt="Share" class="card-icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project card">
+                            <div class="project details">
+                                <h4>Impossible App</h4>
+                                <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+                            </div>
+                            <div class="project card-links">
+                                <a href="" class="project card-link">
+                                    <img src="images/star-plus-outline.svg" alt="Bookmark" class="card-icon">
+                                </a>
+                                <a href="" class="project card-link">
+                                    <img src="images/eye-plus-outline.svg" alt="Browse" class="card-icon">
+                                </a>
+                                <a href="" class="project card-link">
+                                    <img src="images/share-variant-outline.svg" alt="Share" class="card-icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project card">
+                            <div class="project details">
+                                <h4>Easy Peasy App</h4>
+                                <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. 
+                                    Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.
+                                </p>
+                            </div>
+                            <div class="project card-links">
+                                <a href="" class="project card-link">
+                                    <img src="images/star-plus-outline.svg" alt="Bookmark" class="card-icon">
+                                </a>
+                                <a href="" class="project card-link">
+                                    <img src="images/eye-plus-outline.svg" alt="Browse" class="card-icon">
+                                </a>
+                                <a href="" class="project card-link">
+                                    <img src="images/share-variant-outline.svg" alt="Share" class="card-icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project card">
+                            <div class="project details">
+                                <h4>Ad Blocker</h4>
+                                <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. 
+                                    Aliquam sed malesuada eros.
+                                </p>
+                            </div>
+                            <div class="project card-links">
+                                <a href="" class="project card-link">
+                                    <img src="images/star-plus-outline.svg" alt="Bookmark" class="card-icon">
+                                </a>
+                                <a href="" class="project card-link">
+                                    <img src="images/eye-plus-outline.svg" alt="Browse" class="card-icon">
+                                </a>
+                                <a href="" class="project card-link">
+                                    <img src="images/share-variant-outline.svg" alt="Share" class="card-icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project card">
+                            <div class="project details">
+                                <h4>Money Maker</h4>
+                                <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor 
+                                    purus sit amet ex. Pellentesque mollis nec sem vel aliquam.
+                                </p>
+                            </div>
+                            <div class="project card-links">
+                                <a href="" class="project card-link">
+                                    <img src="images/star-plus-outline.svg" alt="Bookmark" class="card-icon">
+                                </a>
+                                <a href="" class="project card-link">
+                                    <img src="images/eye-plus-outline.svg" alt="Browse" class="card-icon">
+                                </a>
+                                <a href="" class="project card-link">
+                                    <img src="images/share-variant-outline.svg" alt="Share" class="card-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="announcements-container">
+                    <h3 class="announcements title">Announcements</h3>
+                    <div class="announcement">
+                        <p>Site Maintenance</p>
+                        <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+                    </div>
+                    <div class="announcement">
+                        <p>Community Share Day</p>
+                        <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+                    </div>
+                    <div class="announcement">
+                        <p>Updated Privacy Policy</p>
+                        <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+                    </div>
+                </div>
+                <div class="trending-container">
+                    <h3 class="trending title">Trending</h3>
+                    <div class="trending items">
+                        <div class="trending item">
+                            <a href="" class="trending link">
+                                <img src="images/baby-red-pand.jpg" alt="World Peace Builder" class="trending-icon">
+                                <span class="trending text">
+                                    <p>@tegan</p>
+                                    <p>World Peace Builder</p>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="trending item">
+                            <a href="" class="trending link">
+                                <img src="images/baby-panda.jpg" alt="Super Cool Project" class="trending-icon">
+                                <span class="trending text">
+                                    <p>@morgan</p>
+                                    <p>Super Cool Project</p>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="trending item">
+                            <a href="" class="trending link">
+                                <img src="images/funny-cat-96.png" alt="Life Changing App" class="trending-icon">
+                                <span class="trending text">
+                                    <p>@kendall</p>
+                                    <p>Life Changing App</p>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="trending item">
+                            <a href="" class="trending link">
+                                <img src="images/funny-lion.jpg" alt="No Traffic Maker" class="trending-icon">
+                                <span class="trending text">
+                                    <p>@alex</p>
+                                    <p>No Traffic Maker</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
